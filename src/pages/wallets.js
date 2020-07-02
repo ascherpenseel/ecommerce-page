@@ -401,6 +401,7 @@ export default {
         items: headerMenu,
         logo: 'https://cdn.shopify.com/s/files/1/0384/6721/files/logo_130x.png?v=1529008221',
         searchText: 'Search our store',
+        announcement: 'Outlet Sale | Up to 70% off',
       },
     },
     {

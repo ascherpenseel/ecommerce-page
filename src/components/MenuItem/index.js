@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './styles.css'
 
-function MenuItem({ data }) {
+function MenuItem({ data, announcement }) {
   const [hovered, setHovered] = useState(false)
 
   const menuList = data.subItems.map((subitem, i) => {
@@ -33,8 +33,13 @@ function MenuItem({ data }) {
       onMouseLeave={() => setHovered(false)}
     >
       <div className="MenuItem-title">{data.key}</div>
-      <div className={`MenuItem-submenu ${hovered ? 'MenuItem-submenu--active' : ''}`}>
-        {menuList}
+      <div
+        className={`MenuItem-submenu-container ${
+          hovered ? 'MenuItem-submenu-container--active' : ''
+        }`}
+      >
+        <div className="MenuItem-submenu">{menuList}</div>
+        <div className="MenuItem-bottombar">{announcement}</div>
       </div>
     </div>
   )

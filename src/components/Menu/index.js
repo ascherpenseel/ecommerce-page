@@ -4,8 +4,8 @@ import MenuItem from 'Components/MenuItem'
 import cartIcon from './cart.svg'
 import './styles.css'
 
-function Menu({ items, searchText, logo }) {
-  const menuItems = items.map((x, i) => <MenuItem key={i} data={x} />)
+function Menu({ items, searchText, logo, announcement }) {
+  const menuItems = items.map((x, i) => <MenuItem key={i} data={x} announcement={announcement} />)
   const [bgOpacity, setBgOpacity] = useState({ opacity: 0 })
 
   const handleScroll = ev => {
