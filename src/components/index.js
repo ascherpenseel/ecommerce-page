@@ -1,2 +1,8 @@
 export { default as Button } from './Button'
 export { default as ExampleComponent } from './ExampleComponent'
+export { default as Menu } from './Menu'
+export { default as Hero } from './Hero'
+export { default as TextBlock } from './TextBlock'
+export { default as ProductsByTags } from './ProductsByTags'
+export { default as Banner } from './Banner'
+export { default as Footer } from './Footer'

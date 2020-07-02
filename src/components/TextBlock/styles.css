@@ -1,0 +1,15 @@
+.TextBlock {
+    padding: 40px;
+}
+
+.TextBlock-title {
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.TextBlock-text {
+    font-family: 'Inconsolata', monospace;
+    max-width: 500px;
+    text-align: left;
+    line-height: 1.5;
+}

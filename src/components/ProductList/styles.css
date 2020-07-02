@@ -1,0 +1,28 @@
+.ProductList {
+    padding: 20px 40px;
+}
+
+.ProductList-title {
+    font-size: 32px;
+}
+
+.ProductList-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.ProductList:last-child .ProductList-row {
+    border-bottom: 0px;
+}
+
+.ProductList-row .Product {
+    margin-left: 30px;
+}
+
+.ProductList-row .Product:first-child {
+    margin-left: 0px;
+}

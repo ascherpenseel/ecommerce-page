@@ -1,0 +1,30 @@
+.Banner {
+    width: calc(100% - 80px);
+    margin: 40px;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.Banner-text {
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.Banner-button {
+    padding: 12px 20px;
+    background-color: #FFF;
+    color: #000;
+    font-weight: bold;
+}

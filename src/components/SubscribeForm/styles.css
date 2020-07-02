@@ -1,0 +1,43 @@
+.SubscribeForm {
+    padding: 0 10px;
+    margin-left: 15px;
+}
+
+.SubscribeForm-cta {
+    color: #FFF;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.8em;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.SubscribeForm-controls {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+}
+
+.SubscribeForm-input {
+    flex: 1;
+    border: 1px solid #FFF;
+    background: none;
+    color: #FFF;
+    padding: 10px 15px;
+    font-size: 0.8em;
+}
+
+.SubscribeForm-button {
+    background: none;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.SubscribeForm-button:hover {
+    color: #000;
+    background-color: #FFF;
+}

@@ -1,0 +1,43 @@
+.Menu {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    z-index: 3;
+}
+
+.Menu-color {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.Menu-logo {
+    margin-right: 15px;
+}
+
+.Menu-items {
+    padding: 0 15px;
+    flex: 1;
+    color: #FFF;
+    align-self: baseline;
+}
+
+.link-container {
+    font-size: 0;
+}
+
+.cart-icon {
+    box-sizing: content-box;
+    width: 25px;
+    height: 25px;
+    color: #FFF;
+    padding: 10px;
+}

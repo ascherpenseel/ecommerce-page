@@ -1,0 +1,63 @@
+.ProductsByTags-menu {
+    position: fixed;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    z-index: 2;
+}
+
+.ProductsByTags-menu-current {
+    position: absolute;
+    top: -120px;
+    left: 0px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, .75);
+    font-size: 1.3em;
+    width: 100%;
+    transition: all 300ms;
+}
+
+.ProductsByTags-menu-current.ProductsByTags-menu-current--active {
+    top: 0px;
+}
+
+.ProductsByTags-menu-current-title {
+    padding: 10px 40px;
+    color: #FFF;
+    width: fit-content;
+    height: 100%;
+}
+
+.ProductsByTags-menu-current-title.ProductsByTags-menu-current-title--active {
+    color: #000;
+    background-color: #FFF;
+    border-bottom: 1px solid #aaa;
+}
+
+.ProductsByTags-menu-current-caret {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.ProductsByTags-menu-list {
+    position: absolute;
+    top: 45px;
+    left: -50px;
+    opacity: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #FFF;
+    color: #000;
+    padding: 40px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.09);
+    transition: all 300ms;
+}
+
+.ProductsByTags-menu-list.ProductsByTags-menu-list--active {
+    left: 0px;
+    opacity: 1;
+}
+
+.ProductsByTags-menu-item {
+    cursor: pointer;
+}

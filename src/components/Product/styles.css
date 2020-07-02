@@ -1,0 +1,34 @@
+.Product {
+    position: relative;
+}
+
+.Product-name {
+    font-weight: bold;
+}
+
+.Product-description {
+    margin: 5px 0;
+}
+
+.Product-description,
+.Product-price {
+    font-size: 0.9em;
+}
+
+.Product-image {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.Product-image-hover {
+    width: 300px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 300ms;
+}
+
+.Product-image-hover.Product-image-hover--active {
+    opacity: 1;
+}
